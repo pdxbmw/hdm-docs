@@ -1,8 +1,16 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: HDM Application Documentation
+description: Documentation for the Hierarchical Decision Modeling web application
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://yourusername.github.io
+baseurl: /hdm-docs
+
+# Enable features
+search_enabled: true
+heading_anchors: true
+
+# Navigation
+nav_enabled: true
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  GitHub Repository: https://github.com/yourusername/hdm-docs
