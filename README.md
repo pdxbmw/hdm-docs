@@ -1,31 +1,36 @@
-# just-the-docs-template
+# HDM Application Documentation
 
-This is a *bare-minimum* template to create a [Jekyll] site that:
+Documentation site for the Hierarchical Decision Modeling (HDM) web application.
 
-- uses the [Just the Docs] theme;
-- can be built and published on [GitHub Pages];
-- can be built and previewed locally, and published on other platforms.
+**Author:** Andi Wilson  
+**Course:** Independent Study with Dr. Tugrul Daim  
+**Department:** Engineering and Technology Management, Portland State University
 
-More specifically, the created site:
+## About
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem;
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages.
+This repository contains comprehensive documentation for a web application designed to support hierarchical decision modeling research using the Analytic Hierarchy Process (AHP) methodology. The application helps researchers conduct multi-criteria decision analysis by breaking down complex decisions into manageable parts, collecting expert judgments, and performing statistical analysis on the results.
 
-To get started with creating a site, simply:
+## Documentation Structure
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+The documentation is organized into the following sections:
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](#hosting-your-docs-from-an-existing-project-repo).
+- **Application Overview** - What the application does and the AHP methodology
+- **User Guide** - How researchers and experts interact with the application
+- **Technical Details** - AHP calculations, consistency checking, and aggregation
+- **Statistical Analysis** - F-test explanation and interpretation
+- **System Architecture** - Technical implementation, database, authentication, and deployment
+- **Development Notes** - Data flow, challenges faced, and future considerations
 
-After completing the creation of your new site on GitHub, update it as needed:
+## Viewing the Documentation
 
-## Replace the content of the template pages
+The documentation is published at: **https://pdxbmw.github.io/hdm-docs/**
 
-Update the following files to your own content:
+## Technology Stack
 
-- `index.md` (your new home page)
-- `README.md` (information for those who access your site repo on GitHub)
+This documentation site uses:
+- [Jekyll] - Static site generator
+- [Just the Docs] - Documentation theme
+- [GitHub Pages] - Hosting platform
 
 ## Changing the version of the theme and/or Jekyll
 
