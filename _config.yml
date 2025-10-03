@@ -2,7 +2,7 @@ title: HDM App Docs
 description: Documentation for the Hierarchical Decision Modeling web application
 theme: just-the-docs
 
-url: https://yourusername.github.io
+url: https://pdxbmw.github.io
 baseurl: /hdm-docs
 
 # Enable features
@@ -13,4 +13,4 @@ heading_anchors: true
 nav_enabled: true
 
 aux_links:
-  GitHub Repository: https://github.com/yourusername/hdm-docs
+  GitHub Repository: https://github.com/pdxbmw/hdm-docs

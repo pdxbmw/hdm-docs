@@ -17,7 +17,7 @@ nav_order: 5
 
 ## Overview
 
-Beyond simple averaging, the application performs statistical tests to determine whether the experts' evaluations are significantly different from each other. This is done using a one-way ANOVA F-test.
+Beyond simple averaging, the application performs statistical tests to determine whether the experts' evaluations are significantly different from each other. This is done using a one-way [ANOVA F-test](https://en.wikipedia.org/wiki/F-test).
 
 ## The Core Question
 
