@@ -1,8 +1,7 @@
 ---
 layout: default
 title: System Architecture
-parent: Project Overview
-nav_order: 5
+nav_order: 6
 ---
 
 # System Architecture

@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Technical Details
-parent: Project Overview
-nav_order: 3
+nav_order: 4
 ---
 
 # Technical Details

@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Development Notes
-parent: Project Overview
-nav_order: 6
+nav_order: 7
 ---
 
 # Development Notes

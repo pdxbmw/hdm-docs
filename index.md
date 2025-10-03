@@ -20,9 +20,7 @@ This documentation covers a web application designed to support hierarchical dec
 
 ## Documentation
 
-- **[Project Overview](project-overview)** - Detailed technical overview of the application, including architecture, calculations, and implementation details
-- **[Presentation Guide](presentation-guide)** - Guide for presenting the project (coming soon)
-- **[Proposal](proposal)** - Original project proposal (coming soon)
+Navigate through the sections using the sidebar to explore different aspects of the HDM application.
 
 ## Key Features
 

@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Application Overview
-parent: Project Overview
-nav_order: 1
+nav_order: 2
 ---
 
 # Application Overview

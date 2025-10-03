@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Statistical Analysis
-parent: Project Overview
-nav_order: 4
+nav_order: 5
 ---
 
 # Statistical Analysis
