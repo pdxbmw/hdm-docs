@@ -43,12 +43,10 @@ Access control is relatively straightforward. Researchers can only see and modif
 
 ## Deployment Architecture
 
-The application is containerized using Docker, which packages the application with all its dependencies into a single deployable unit. The container includes multiple services that need to run together: the Reflex backend server, Redis for state management, and Caddy as a reverse proxy.
+The application is hosted on Reflex's hosting platform, which handles the deployment and infrastructure management. This platform-as-a-service approach simplifies deployment by managing the server infrastructure, scaling, and updates automatically.
 
-Redis is used for managing real-time state synchronization. When multiple users are accessing the application simultaneously, Redis helps coordinate their sessions through pub/sub messaging. This is particularly important for WebSocket-based real-time updates.
+The database is hosted on Supabase, a PostgreSQL hosting service. Supabase provides a managed database instance with automatic backups, connection pooling, and a web-based interface for database management. The application connects to Supabase using connection strings configured through environment variables.
 
-Caddy serves as the reverse proxy, handling incoming HTTP requests and routing them appropriately. It serves the static frontend files directly and proxies API requests to the Reflex backend. This separation allows the frontend to be served efficiently while keeping the backend stateless and scalable.
+Authentication is handled by Clerk, as mentioned earlier. Clerk's service runs independently and integrates with the application through their SDK and API. This separation of concerns means authentication infrastructure is managed externally, reducing the operational burden.
 
-The containerized application can be deployed to various platforms like Render, Railway, or cloud providers like Google Cloud Run. These platforms handle TLS termination, so the application itself doesn't need to manage SSL certificates. The database runs as a separate service, which is standard practice, you don't want your database inside your application container because data needs to persist independently.
-
-Environment variables configure things like database connection strings and API keys. This keeps sensitive information out of the codebase and allows the same container image to be deployed in different environments (development, staging, production) with different configurations.
+Environment variables configure the connections between these services, including the Supabase database connection string, Clerk API keys, and any other service credentials. This keeps sensitive information out of the codebase and allows for easy configuration changes without modifying the application code.
